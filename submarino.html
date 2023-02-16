@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tela inicial animacao</title>
+<style>
+    .submarino
+        {
+            top: 0px;
+            left: 0px;
+            animation: sub 4s infinite alternate;
+        }
+
+        @keyframes sub
+        {
+            0% { transform: translate(0px, 0px); }
+            100% { transform: translate(12000px, 0px); }
+        }
+</style>
+
+</head>
+<body>
+    <div class="submarino">
+        <img src="submarino1.gif">
+    </div>
+</body>
+</html>
