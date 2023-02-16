@@ -1,0 +1,34 @@
+.submarino
+{
+    top: 1600x;
+    left: 0px;
+    animation: sub 4s infinite alternate;
+}
+
+@keyframes sub
+{
+    0% { transform: translate(0px, 800px); }
+    100% { transform: translate(0px, -200px);}
+}
+
+.bolhas {
+    left: 0px;
+    animation: bolhas 5s forwards;
+}
+
+.bolhas2 {
+    left: 200px;
+    animation: bolhas 5s forwards;
+}
+
+@keyframes bolhas {
+
+    from {
+        transform: translateY(500%);
+        opacity: 1;
+    }
+
+    to {
+        transform: translateY(-150%);
+        opacity: 0.25;
+    }
