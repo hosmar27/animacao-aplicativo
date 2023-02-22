@@ -13,7 +13,7 @@
 
 .bolhas {
     left: 0px;
-    animation: bolhas 5s forwards;
+    animation: bolhas 2s forwards;
 }
 
 .bolhas2 {
@@ -32,3 +32,4 @@
         transform: translateY(-150%);
         opacity: 0.25;
     }
+}

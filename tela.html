@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animate</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    
+    <style>
+
+        body
+        {
+            background: rgb(0, 156, 247);
+        }
+
+        .meu_texto
+        {   /* CONTINUAR COM AS ANIMAÇÕES DA ÚLTIMA AULA  */
+            animation: backInUp 3s;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            font-size: 120px;
+            color: rgb(0, 52, 196);
+            text-shadow: 1px 1px black;
+            font-family: fantasy;
+        }
+        
+        
+        .bolhas
+        {
+           left: 0px;
+           animation: bolhas1 4s forwards;
+            position: relative;
+           align-items: center;
+        }
+        .bolhas2
+        {
+            animation: bolhas2 4s forwards;
+            margin-left: 90%;
+            position: relative;
+            align-items: center;
+        }
+
+
+        @keyframes bolhas1{
+
+            0% {bottom: -1000px; opacity: 1;}
+            100% {bottom: 1100px; opacity: -0.7;}
+        }
+        @keyframes bolhas2{
+
+    0% {bottom: -700px; opacity: 1;}
+    100% {bottom: 1100px; opacity: -0.8;}
+    }
+        .sub
+        {
+            position: absolute;
+            top: 45%;
+            left: -20%;
+            animation: engrena 1s infinite ease;
+        }
+        
+        @keyframes sub{
+
+            
+        }
+
+       
+    </style>
+</head>
+<body>
+    <div class="fundo">
+        
+    </div>
+    <div class="meu_texto">
+        TRANSMARINE
+    </div>
+    <div class="bolhas">
+        <img src="bolhas.png">
+    </div>
+    <div class="bolhas2">
+        <img src="bolhas.png">
+    </div>
+    <div class="sub">
+        <img src="submarino1.gif">
+    </div>
+
+</body>
+</html>
